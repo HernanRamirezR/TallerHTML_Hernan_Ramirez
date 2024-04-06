@@ -12,4 +12,4 @@ Gorillaz es mi banda favorita, y esta página es un homenaje a su música y crea
 - **Navegación fácil:** Botones de navegación para acceder a diferentes secciones de la página, como noticias y tienda.
 
 ## Maqueta: 
-![Maqueta de la pagina][Maqueta.png]
+![Maqueta](https://github.com/HernanRamirezR/TallerHTML_Hernan_Ramirez/assets/111007279/e37addae-a29f-4178-9b4d-31e7d1732cb4)
