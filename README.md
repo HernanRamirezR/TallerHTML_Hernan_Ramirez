@@ -11,3 +11,5 @@ Gorillaz es mi banda favorita, y esta página es un homenaje a su música y crea
 
 - **Navegación fácil:** Botones de navegación para acceder a diferentes secciones de la página, como noticias y tienda.
 
+## Maqueta: 
+![Maqueta de la pagina][Maqueta.png]
