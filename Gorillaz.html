@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gorillaz</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="row mb-4">
+            
+            <div class="col-lg-8">
+                <img src="Gorillaz_logo.png" class="d-25.5 w-25.5" alt="logo de Gorillaz">
+            </div>
+
+            <div class="col-lg-4 text-right">
+                <button type="button" class="btn btn-primary">Home</button>
+                <button type="button" class="btn btn-secondary">News</button>
+                <button type="button" class="btn btn-secondary">Shop</button>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-6">
+                <p>
+                    Gorillaz es una banda virtual británica formada en 1998 por el músico <a href="https://es.wikipedia.org/wiki/Damon_Albarn">Damon Albarn</a> y el artista <a href="https://es.wikipedia.org/wiki/Jamie_Hewlett">Jamie Hewlett</a>.
+                    Representada por personajes animados, Gorillaz es conocida por su estilo visual único y su música que cruza fronteras de género,
+                    mezclando rock, hip hop y electrónica. La banda se compone de cuatro miembros ficticios cada uno con su propia historia y personalidad. Desde su debut, Gorillaz ha destacado por su innovador enfoque multimedia, utilizando
+                    sus álbumes, videos y presentaciones en vivo para crear un universo narrativo rico y envolvente.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/historia_gorillaz.jpg?itok=hHkhDHOw" alt="Gorillaz" class="img-fluid">
+                <h3>Los miembros: </h3>
+                <ul>
+                    <li>2D: Voz, teclados.</li>
+                    <li>Murdoc Niccals: Bajo.</li>
+                    <li>Noodle: Guitarra.</li>
+                    <li>Russel Hobbs: Batería.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <h1>Ecucha a Gorillaz:</h1>
+        <div class="row my-4">
+            <div class="col">
+                <!-- Carousel -->
+                <div id="albumCarousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- Primer slide (activo) -->
+                        <div class="carousel-item active">
+                            <div class="d-flex justify-content-around">
+                                <!-- Demon Dayz-->
+                                <img src="https://m.media-amazon.com/images/I/71lix6+VfWL.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/track/2k6hpKTyubRVOmQR11ViY3';">
+                                <!-- Plastic Beach-->
+                                <img src="https://m.media-amazon.com/images/I/71Gs12K8rtL._UF1000,1000_QL80_.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/album/2dIGnmEIy1WZIcZCFSj6i8';">
+                                <!-- Gorillaz-->
+                                <img src="https://m.media-amazon.com/images/I/71jHAy4L1IL._SL1425_.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/album/2dIGnmEIy1WZIcZCFSj6i8';">
+                            </div>
+                           
+                        </div>
+
+                        <!-- Segundo slide-->
+                        <div class="carousel-item">
+                            <div class="d-flex justify-content-around">
+                                <!-- Humanz-->
+                                <img src="https://m.media-amazon.com/images/I/41sDDXC9-vL._UF1000,1000_QL80_.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/album/0696xC5ne3egtnSXp6T4Yg';">
+                                <!-- Cracker Island-->
+                                <img src="https://m.media-amazon.com/images/I/91GEZcp+uXL._UF1000,1000_QL80_.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/album/4wtZQMNTC1O79kDxMBsEan';">
+                                <!-- The now now -->
+                                <img src="https://m.media-amazon.com/images/I/81Emlc5dKwL._UF1000,1000_QL80_.jpg" class="d-25 w-25" alt="Album" onclick="window.location.href='https://open.spotify.com/intl-es/album/1amYhlukNF8WdaQC3gKkgL';">
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <a class="carousel-control-prev" href="#albumCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#albumCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div  class="subscribe-form">
+                        <form class="form-subscribe">
+                            <div class="form-group">
+                                <label for="emailSubscribe">Suscríbete para estar al día con las últimas noticias sobre Gorillaz</label>
+                                <input type="email" class="form-control" id="emailSubscribe" placeholder="Introduce tu email">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Suscribirse</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

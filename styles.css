@@ -1,0 +1,28 @@
+body {
+    background-color: #1E1E1E; 
+    color: white;
+    font-size: 20px;
+    
+}
+
+.subscribe-form {
+    width: 100%; /* Establece el ancho al 100% */
+    margin: 0; /* Elimina los márgenes para permitir que ocupe todo el ancho */
+    background-color: #f2f2f2;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    background-color: #1E1E1E;
+    padding: 20px; /* Añadir relleno para separar el texto de los bordes */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+
